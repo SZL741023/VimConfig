@@ -8,6 +8,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'powerline/fonts'
 Plug 'preservim/nerdtree'
 Plug 'ycm-core/YouCompleteMe'
+Plug 'keith/sourcekittendaemon.vim'
 call plug#end()
 
 "-----------

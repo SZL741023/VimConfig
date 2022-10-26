@@ -37,5 +37,6 @@ set noswapfile
 "------------------
 "files_related
 "------------------
-set softtabstop=4 
-set showtabline=4
+autocmd BufRead *.py set ai et sw=4 ts=4 softtabstop=4
+"set softtabstop=4 
+"set showtabline=4
