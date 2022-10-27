@@ -16,6 +16,7 @@ call plug#end()
 "Control
 "-----------
 set backspace=indent,eol,start
+set relativenumber
 
 "-----------
 "RunCode
