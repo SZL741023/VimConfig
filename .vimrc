@@ -9,6 +9,7 @@ Plug 'powerline/fonts'
 Plug 'preservim/nerdtree'
 Plug 'ycm-core/YouCompleteMe'
 Plug 'toyamarinyon/vim-swift'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 "-----------
