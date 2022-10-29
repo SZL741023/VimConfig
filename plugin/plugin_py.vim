@@ -16,11 +16,8 @@ set ruler
 "------------------
 set clipboard=unnamed
 
-
-colorscheme afterglow
 syntax on
 let g:python_highlight_all = 1
-
 
 "------------------
 "scroll
@@ -38,5 +35,6 @@ set noswapfile
 "files_related
 "------------------
 autocmd BufRead *.py set ai et sw=4 ts=4 softtabstop=4
+" autocmd BufRead *.py colorscheme afterglow
 "set softtabstop=4 
 "set showtabline=4
