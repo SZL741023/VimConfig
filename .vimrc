@@ -10,7 +10,7 @@ Plug 'preservim/nerdtree'
 Plug 'ycm-core/YouCompleteMe'
 Plug 'toyamarinyon/vim-swift'
 Plug 'jiangmiao/auto-pairs'
-Plug 'danilo-augusto/vim-afterglow'
+Plug 'vim-python/python-syntax'
 call plug#end()
 
 "-----------
@@ -31,3 +31,8 @@ elseif &filetype == 'swift'
 	exec "!swift %"
 endif
 endfunc
+
+"-----------
+"Python Syntax
+"-----------
+let g:python_highlight_all = 1 
