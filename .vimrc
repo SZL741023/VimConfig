@@ -10,6 +10,7 @@ Plug 'preservim/nerdtree'
 Plug 'ycm-core/YouCompleteMe'
 Plug 'toyamarinyon/vim-swift'
 Plug 'jiangmiao/auto-pairs'
+Plug 'danilo-augusto/vim-afterglow'
 call plug#end()
 
 "-----------

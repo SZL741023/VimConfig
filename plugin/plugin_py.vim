@@ -17,7 +17,7 @@ set ruler
 set clipboard=unnamed
 
 
-colorscheme habamax
+colorscheme afterglow
 syntax on
 let g:python_highlight_all = 1
 
