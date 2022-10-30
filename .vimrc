@@ -36,3 +36,8 @@ endfunc
 "Python Syntax
 "-----------
 let g:python_highlight_all = 1 
+
+"-----------
+"Color
+"-----------
+set t_Co=256

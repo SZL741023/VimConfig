@@ -34,7 +34,14 @@ set noswapfile
 "------------------
 "files_related
 "------------------
-autocmd BufRead *.py set ai et sw=4 ts=4 softtabstop=4
+autocmd BufNewFile, BufRead *.py 
+    \ set tabstop=4
+    \ set softtabstop=4
+    \ set shiftwidth=4
+    \ set textwidth=79
+    \ set expandtab
+    \ set autoindent
+    \ set fileformat=unix
 " autocmd BufRead *.py colorscheme afterglow
 "set softtabstop=4 
 "set showtabline=4
