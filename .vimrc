@@ -11,6 +11,7 @@ Plug 'ycm-core/YouCompleteMe'
 Plug 'toyamarinyon/vim-swift'
 Plug 'jiangmiao/auto-pairs'
 Plug 'vim-python/python-syntax'
+Plug 'tomasiser/vim-code-dark'
 call plug#end()
 
 "-----------
@@ -18,7 +19,7 @@ call plug#end()
 "-----------
 set backspace=indent,eol,start
 set relativenumber
-colorscheme habamax
+colorscheme codedark
 "-----------
 "RunCode
 "-----------
@@ -41,3 +42,4 @@ let g:python_highlight_all = 1
 "Color
 "-----------
 set t_Co=256
+
