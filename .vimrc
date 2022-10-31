@@ -10,7 +10,7 @@ Plug 'preservim/nerdtree'
 Plug 'ycm-core/YouCompleteMe'
 Plug 'toyamarinyon/vim-swift'
 Plug 'jiangmiao/auto-pairs'
-Plug 'vim-python/python-syntax'
+Plug 'sheerun/vim-polyglot'
 Plug 'tomasiser/vim-code-dark'
 call plug#end()
 
@@ -43,3 +43,7 @@ let g:python_highlight_all = 1
 "-----------
 set t_Co=256
 
+"-----------
+"C Family setting
+"-----------
+let g:ycm_global_ycm_extra_conf = '~/.vim/plugged/YouCompleteMe/.ycm_extra_conf.py'
