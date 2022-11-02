@@ -20,7 +20,7 @@ call plug#end()
 "-----------
 set backspace=indent,eol,start
 set relativenumber
-colorscheme habamax
+colorscheme codedark
 "-----------
 "RunCode
 "-----------
