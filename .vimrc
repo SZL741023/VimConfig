@@ -12,6 +12,7 @@ Plug 'toyamarinyon/vim-swift'
 Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 Plug 'tomasiser/vim-code-dark'
+Plug 'bassstring/apple-swift'	
 call plug#end()
 
 "-----------
@@ -19,7 +20,7 @@ call plug#end()
 "-----------
 set backspace=indent,eol,start
 set relativenumber
-colorscheme codedark
+colorscheme habamax
 "-----------
 "RunCode
 "-----------
